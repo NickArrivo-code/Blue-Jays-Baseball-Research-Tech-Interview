@@ -12,7 +12,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 data = pd.read_csv('/Users/nickarrivo/Downloads/training_data_cleaned.csv')
 
-# Extract the features you're interested in
+# Extract the features Horz Break and IVB
 features = ['HorzBreak', 'InducedVertBreak']
 data_subset = data[features]
 
